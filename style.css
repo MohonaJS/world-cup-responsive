@@ -16,8 +16,8 @@ header {
   justify-content: space-around;
   align-items: center;
   margin: 0 auto;
-  color: white;
-  background-color: #161616;
+  color: rgb(210, 13, 13);
+  background-color: #9c0a0a;
   border-radius: 1rem;
   padding: 2rem 5rem 0 5rem;
 }
