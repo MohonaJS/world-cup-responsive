@@ -1,0 +1,26 @@
+/* upcoming website style  */
+.upcomingMatch {
+  width: 312px;
+  height: 242px;
+  border: 1px solid gray;
+  border-radius: 2px;
+
+}
+.flags {
+  width: 93px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.flags img {
+  width: 100%;
+}
+
+.containerInfo {
+  text-align: center;
+  padding: 1rem;
+  margin: 1rem;
+  line-height: 2rem;
+}
