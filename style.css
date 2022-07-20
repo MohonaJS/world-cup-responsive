@@ -22,35 +22,35 @@ header {
   padding: 2rem 5rem 0 5rem;
 }
 .heroTitle {
-  width: 531px;
+  width: 900px;
 }
 .heroTitle h1 {
   font-weight: 700;
   margin: 2rem;
-  font-size: 70px;
+  font-size: 5rem;
 }
 .heroTitle p {
   font-weight: 400;
   margin: 3rem;
-  font-size: 16px;
+  font-size: 2rem;
 }
 @keyframes bgcolor {
   0% {
     background-color: red;
     color: white;
   }
-  25% {
+  15% {
     background-color: yellow;
     color: black;
   }
-  50% {
+  /* 50% {
     background-color: blue;
     color: white;
   }
   100% {
     background-color: green;
     color: white;
-  }
+  } */
 }
 .heroTitle button {
   background-color: red;
@@ -58,10 +58,10 @@ header {
   margin: 3rem;
   border: none;
   font-size: 25px;
-  animation: bgcolor 10s ease-in-out infinite;
+  animation: bgcolor 20s ease-in-out infinite;
 }
 .heroImg {
-  width: 600px;
+  width: 1000px;
 }
 .heroImg div img {
   width: 100%;
@@ -159,6 +159,9 @@ footer div p {
   font-size: 1.5rem;
   padding-top: 4rem;
 }
+.social-media {
+  display: none;
+}
 
 /* Mobile version Css */
 @media only screen and (max-width: 600px) {
@@ -197,6 +200,9 @@ footer div p {
   }
   footer div p {
     margin-top: 10px;
+  }
+  .social-media {
+    display: block;
   }
 }
 
