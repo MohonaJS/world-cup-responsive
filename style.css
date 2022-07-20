@@ -61,7 +61,7 @@ header {
   animation: bgcolor 20s ease-in-out infinite;
 }
 .heroImg {
-  width: 1000px;
+  width: 50%;
 }
 .heroImg img {
   width: 100%;
